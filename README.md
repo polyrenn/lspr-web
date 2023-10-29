@@ -8,3 +8,6 @@ First, run the development server:
 pnpm run dev
 ```
 
+For styling use Tailwind
+Package Manager: Pnpm
+
