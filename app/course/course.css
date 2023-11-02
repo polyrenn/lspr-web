@@ -73,7 +73,7 @@
     color: #838383;
     line-height: 28px;
     margin: 10px 0;
-    height: 210px;
+    min-height: 210px;
 }
 .Course-Card .buttons{
     display: flex;
@@ -110,7 +110,7 @@
         height: 50px;
     }
     .Course-Card .desc{
-        height: 200px;
+        min-height: 200px;
     }
     .Course-Card .buttons{
         flex-direction: column;

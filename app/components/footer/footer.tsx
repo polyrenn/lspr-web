@@ -24,7 +24,7 @@ const Footer = () => {
     <div id="Footer">
         <div className="container">
             <div className="one">
-                <p className="logo">LSPR<span>NG</span></p>
+                <img src="/course/logo.png" alt="logo" />
                 <p id="become">Become an expert in Public Relations and Business Branding. Learn the value and strategies of public relations, crisis management, and corporate social responsibility.</p>
                 <div className="socials">
                     <div><img src="/about/facebook.png" alt="facebook" /></div>
