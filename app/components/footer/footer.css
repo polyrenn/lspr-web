@@ -1,0 +1,63 @@
+#Footer{
+    background-color: var(--main-color);
+    padding-top: 40px;
+    color: var(--white-variant1); 
+}
+#Footer .container{
+    display: flex;
+    padding-bottom: 80px;
+    gap: 15%;
+}
+#Footer .one{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#Footer a{
+    color: var(--white-variant1);
+    text-decoration: none;
+}
+#Footer ul{
+    list-style: none;
+}
+#Footer #become{
+    width: 399px;
+    height: 78px;
+    font-size: 14px;
+}
+#Footer .one .socials{
+    display: flex;
+    width: 248px;
+    justify-content: space-between;
+}
+#Footer .one .socials div{
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255,255,255,0.15);
+}
+#Footer .right{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#Footer li{
+    font-size: 16px;
+    color: #d4d4d4;
+    margin-bottom: 13px;
+}
+#Footer h4{
+    width: 110px;
+    border-bottom: 3px solid rgba(255,255,255,0.15);
+    margin-bottom: 15px;
+    padding-bottom: 9px;
+    font-weight: 400;
+}
+footer{
+    text-align: center;
+    border-top: 3px solid rgba(255,255,255,0.15);
+    padding: 25px 0;
+    width: 90%;
+    margin: auto;
+    color: var(--white);
+    font-size: 16px;
+}
