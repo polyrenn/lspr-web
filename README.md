@@ -10,4 +10,4 @@ pnpm run dev
 
 For styling use Tailwind
 Package Manager: Pnpm
-
+Node v20.9.0
