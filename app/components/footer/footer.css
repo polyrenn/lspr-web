@@ -3,6 +3,13 @@
     padding-top: 40px;
     color: var(--white-variant1); 
 }
+#FOOTER h2{
+    width: 468px;
+    color: var(--main-color);
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
 #Footer .container{
     display: flex;
     padding-bottom: 80px;
@@ -33,10 +40,10 @@
 #Footer .one .socials div{
     width: 44px;
     height: 44px;
-    background-color: rgba(255,255,255,0.15);
 }
 #Footer .right{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     justify-content: space-between;
 }
@@ -60,4 +67,93 @@ footer{
     margin: auto;
     color: var(--white);
     font-size: 16px;
+}
+#FOOTER .sec-5{
+    background-color: var(--white-blue);
+    padding: 40px 0;
+    margin-top: 80px;
+}
+#FOOTER .sec-5 .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#FOOTER .sec-5 button{
+    padding: 14px 35px;
+    background-color: var(--main-color);
+    color: var(--white);
+    border: none;
+    margin-top: -10px;
+}
+#FOOTER .sec-5 .image{
+    width: 262px;
+    height: 265.58px;
+}
+#FOOTER .sec-6{
+    display: none;
+}
+@media(max-width: 700px){
+    #Footer .container{
+        flex-direction: column;
+        /* padding-bottom: 80px; */
+        gap: 30px;
+        position: relative;
+    }
+    #Footer .one{
+        gap: 0px;
+    }
+    #Footer #become{
+        width: 100%;
+        height: fit-content;
+        margin-top: 10px;
+        line-height: 26px;
+    }
+    #Footer .one .socials{
+        position: absolute;
+        bottom: 20px;
+    }
+    #Footer .right{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+    #Footer li{
+        margin-bottom: 18px;
+    }
+    #FOOTER .sec-5{
+        display: none;
+    }
+    #FOOTER .sec-6{
+        display: block;
+        background-color: var(--white-blue);
+        padding: 40px 0;
+        margin-top: 80px;
+    }
+    #FOOTER .sec-6 .container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #FOOTER .sec-6 .container p{
+        margin-bottom: 15px;
+    }
+    #FOOTER .sec-6 .container p:first-child{
+        color: var(--primary-color);
+    }
+    #FOOTER .sec-6 .container p:nth-child(2){
+        font-size: 24px;
+        color: var(--main-color);
+        font-weight: bold;
+    }
+    #FOOTER .sec-6 .container p:nth-child(3){
+        color: var(--grey);
+        line-height: 26px;
+    }
+    #FOOTER .sec-6 button{
+        padding: 14px 35px;
+        background-color: var(--main-color);
+        color: var(--white);
+        border: none;
+    }
 }

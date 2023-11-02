@@ -8,7 +8,7 @@ export default function Navigation() {
             <p className="logo">LSPR<span>NG</span></p>
             <nav>
                 <div>
-                    <Link href="/about">
+                    <Link href="/">
                         Home
                     </Link>
                 </div>
@@ -18,12 +18,12 @@ export default function Navigation() {
                     </Link>
                 </div>
                 <div>
-                    <Link href="/about">
+                    <Link href="/enterprise">
                         Enterprise
                     </Link>
                 </div>
                 <div>
-                    <Link href="/about">
+                    <Link href="/course">
                         Our Courses
                     </Link>
                 </div>

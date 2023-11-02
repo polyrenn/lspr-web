@@ -33,3 +33,9 @@ header button{
     width: 125px;
     height: 48px;
 }
+
+@media(max-width: 700px){
+    header{
+        display: none;
+    }
+}

@@ -20,8 +20,8 @@ const About = () => {
           </div>
         </section>
         <section className="sec-x">
-          <section className="image1"></section>
-          <section className="image2"></section>
+          <img src="/about/Rectangle650.png" alt="banner" className="image1" />
+          <img src="/about/LSPRBANNER1-01.png" alt="banner" className="image2" />
         </section>
         <section className="sec-2">
           <div className="container">
@@ -58,7 +58,7 @@ const About = () => {
           <div className="container">
             <h2>Meet The LSPR Leads</h2>
             <div className="hold">
-              <div className="image"></div>
+              <img src="/about/Rectangle648.png" alt="Man" className="image" />
               <Leads
                 head="John Dalton"
                 role="CEO of LSPR Global"
@@ -66,24 +66,15 @@ const About = () => {
                 second="With a background as a biochemist and Chartered Biologist, John's rigorous approach has attracted many to his evidence-based, holistic approach to public relations, communications and reputation management."
               />
             </div>
-            <div className="hold">
+            <div className="hold hold-2">
               <Leads
                 head="Susan Croft"
                 role="Co-Founder of LSPR"
                 first="Susan is a co-founder and Executive Director of Skill-Pill Mobile Learning, a start-up company based in London and offering mobile learning and information solutions to businesses."
                 second="Susan is responsible for product development and international marketing for the company. Susan is a member of the Advisory Board of the London School of Public Relations (LSPR) and has helped shape the structure and focus of the school's Diploma programmes as well as train on the LSPR ITOL-Approved Diploma course."
               />
-              <div className="image"></div>
+              <img src="/about/Rectangle648-1.png" alt="Man" className="image" />
             </div>
-          </div>
-        </section>
-        <section className="sec-5">
-          <div className="container">
-            <div className="left">
-              <h2>Set your PR career on an upward trajectory</h2>
-              <button>Explore Courses</button>
-            </div>
-            <div className="image"></div>
           </div>
         </section>
         <Footer/>
