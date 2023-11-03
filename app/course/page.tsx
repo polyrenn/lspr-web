@@ -3,14 +3,13 @@ import Footer from "../components/footer/Footer"
 import Navigation from "../components/navigation/Navigation"
 import {courses} from "./data";
 import Course from "../components/course/Course";
+import Top from "../components/top/Top";
 
 const page = () => {
   return (
     <main id="Course">
         <Navigation/>
-        <section className="sec-1">
-            <p>Our Courses</p>
-        </section>
+        <Top text="Our Courses"/>
         <section className="sec-2">
           <div className="container">
             <div className="categories">

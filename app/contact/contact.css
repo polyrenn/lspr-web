@@ -1,0 +1,189 @@
+#Contact .us{
+    width: 90%;
+    margin: auto;
+    color: var(--primary-color);
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#Contact .main .container{
+    display: flex;
+    justify-content: space-between;
+}
+#Contact  .main .container .right{
+    width: 610px;
+    background-color: #f5fcff;
+    border: 1px solid #b6eaff;
+    padding: 25px;
+}
+#Contact  .main .container .left{
+    width: 484px;
+}
+#Contact .main .how{
+    font-size: 48px;
+    color: var(--main-color);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Contact .main .did{
+    color: var(--grey);
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+#Contact .main .contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+    color: var(--grey);
+    margin-bottom: 20px;
+}
+#Contact .main .contact{
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    gap: 15px;
+}
+#Contact .main .socials{
+    display: flex;
+    gap: 15px;
+}
+#Contact  .main .right .group{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: var(--grey);
+}
+#Contact .main .right input{
+    height: 56px;
+    width: 100%;
+    padding-left: 10px;
+    color: #bebebe;
+    border: 1px solid #bebebe;
+}
+#Contact .main .right textarea{
+    width: 100%;
+    padding: 10px;
+    height: 286px;
+    border: 1px solid #bebebe;
+}
+#Contact .main .right .choose{
+    display: flex;
+    gap: 30px;
+}
+#Contact .main .right .choice{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#Contact .main .right .choose .big{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Contact .main .right .choose .selected{
+    border: 1px solid var(--main-color);
+}
+#Contact .main .right .choose .selected div{
+    width: 16px;
+    height: 16px;
+    background-color: var(--main-color);
+}
+#Contact .main .right button{
+    height: 56px;
+    background-color: var(--main-color);
+    border: none;
+    width: 100%;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+#Contact .modal{
+    z-index: 9;
+    position: fixed;
+    top: 10%;
+    right: 25%;
+    background-color: var(--white);
+    width: 526px;
+    height: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Contact .modal .modal-cont{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+}
+#Contact .modal .modal-cont .close{
+    position: absolute;
+    top: -30px;
+    right: -80px;
+}
+#Contact .MODAL .overlay{
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#Contact .modal .modal-cont .sent{
+    margin: 15px 0;
+    font-size: 24px;
+    color: var(--main-color);
+}
+#Contact .modal .modal-cont p:last-child{
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--grey);
+}
+@media(max-width: 700px){
+    #Contact .us{
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    #Contact .main .container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #Contact  .main .container .right{
+        width: 100%;
+        padding: 10px;
+    }
+    #Contact  .main .container .left{
+        width: 100%;
+    }
+    #Contact .main .how{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #Contact .main .contacts{
+        gap: 18px;
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+    #Contact .modal{
+        right: 10%;
+        width: 80vw;
+        height: 329px;
+    }
+    #Contact .modal .modal-cont .close{
+        top: 0px;
+        right: 20px;
+    }
+    #Contact .modal .modal-cont .sent{
+        font-size: 18px;
+    }
+    #Contact .modal .modal-cont p:last-child{
+        font-size: 16px;
+    }
+}

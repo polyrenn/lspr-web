@@ -1,12 +1,3 @@
-#Course .sec-1{
-    background-color: var(--main-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40vh;
-    font-size: 54px;
-    color: var(--white);
-}
 #Course .sec-2{
     padding-top: 40px;
 }
@@ -92,10 +83,6 @@
 }
 
 @media(max-width: 700px){
-    #Course .sec-1{
-        height: 25vh;
-        font-size: 28px;
-    }
     #Course .sec-2 .categories{
         font-size: 16px;
     }

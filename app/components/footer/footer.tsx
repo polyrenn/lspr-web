@@ -38,8 +38,8 @@ const Footer = () => {
                     <h4>Our Links</h4>
                     <ul>
                         <li> <Link href="/">Home</Link> </li>
-                        <li> <Link href="/">About us</Link> </li>
-                        <li> <Link href="/">LSPR NG for Enterprise</Link> </li>
+                        <li> <Link href="/about">About us</Link> </li>
+                        <li> <Link href="/enterprise">LSPR NG for Enterprise</Link> </li>
                         <li> <Link href="/">Instructors</Link> </li>
                         <li> <Link href="/">Blog</Link> </li>
                     </ul>
@@ -47,15 +47,15 @@ const Footer = () => {
                 <div className="two">
                     <h4>Support</h4>
                     <ul>
-                        <li> <Link href="/">F.A.Q</Link> </li>
-                        <li> <Link href="/">Contact Us</Link> </li>
+                        <li> <Link href="/faq">F.A.Q</Link> </li>
+                        <li> <Link href="/contact">Contact Us</Link> </li>
                     </ul>
                 </div>
                 <div className="two">
                     <h4>Legal</h4>
                     <ul>
-                        <li> <Link href="/">Privacy Policy</Link> </li>
-                        <li> <Link href="/">Terms and Condition</Link> </li>
+                        <li> <Link href="/privacy">Privacy Policy</Link> </li>
+                        <li> <Link href="/terms">Terms and Condition</Link> </li>
                     </ul>
                 </div>
             </div>

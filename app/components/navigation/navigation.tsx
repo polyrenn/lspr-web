@@ -31,7 +31,7 @@ export default function Navigation() {
                     </Link>
                 </div>
                 <div>
-                    <Link href="/about">
+                    <Link href="/contact">
                         Contact Us
                     </Link>
                 </div>
@@ -73,7 +73,7 @@ export default function Navigation() {
                     </Link>
                 </div>
                 <div>
-                    <Link href="/about">
+                    <Link href="/contact">
                         Contact Us
                     </Link>
                 </div>
